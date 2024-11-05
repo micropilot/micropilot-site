@@ -1,10 +1,108 @@
-<!-- index.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>micropilot</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micropilot (μ)</title>
+    <link rel="icon" href="letter_logo_inv.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Georgia&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'mono', serif;
+            background-color: #F5F4EF;
+            color: #222;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+        }
+
+        .container {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        /* Header styling */
+        .header {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.9em;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 1rem;
+        }
+
+        .header span {
+            font-family: 'Georgia', serif;
+            font-weight: normal;
+            font-size: 1em;
+        }
+
+        a {
+            color: #B02929; /* Light red-orange color */
+            text-decoration: none;
+        }
+
+        /* Paragraph styling */
+        p {
+            margin: 1.5rem 0;
+            color: #333;
+        }
+
+        /* Footer styling */
+        .footer {
+            margin-top: 2rem;
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.9em;
+            color: #555;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 600px;
+            border-top: 1px solid #ccc;
+            padding-top: 1rem;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #222;
+            font-weight: bold;
+            padding: 0 0.5rem;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Copilot for drones</h1>
+    <div class="container">
+        <header class="header">
+            Micropilot <span>(μ)</span>
+        </header>
+        <p>Micropilot is bringing general-purpose AI into the prosthetics and exoskeletons world. Currently a one-man initiative, Micropilot is actively seeking collaborators from various fields, including engineering, science, robotics, and company-building, who are passionate about solving challenges in assistive technologies.</p>
+        <p>We are focused on developing control models and learning algorithms that power today’s prosthetics and exoskeletons and lay the foundation for future human-augmented devices. If you’re interested in joining us on this journey, please <a href="mailto:sagar@micropilot.org">get in touch</a>.</p>
+        
+        <p class="twitter">You can follow us on Twitter at <a href="https://twitter.com/__micropilot__" target="_blank">@__micropilot__</a></p>
+    </div>
+    <footer class="footer">
+        <div>Micropilot</div>
+        <div>
+            <a href="mailto:sagar@micropilot.org">Contact</a>
+        </div>
+    </footer>
 </body>
 </html>
